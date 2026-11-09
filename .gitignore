@@ -1,0 +1,24 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Large acoustic data files (55MB+ and challenge licensing terms)
+acoustics/
+*.parquet
+
+# Temporary logs and scratch
+scratch/
+train_*_log.txt
+
+# Unrelated temporary folders
+invitation/
